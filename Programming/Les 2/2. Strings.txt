@@ -1,0 +1,9 @@
+s = 'Supercalifragilisticexpialidocious'
+a = 'Antidisestablishmentarianism'
+componist = ['Berlioz', 'Borodin', 'Brian', 'Bartok', 'Bellini', 'Buxtehude', 'Bernstein']
+
+print(len(s)) #34
+print('ice' in s) #true
+print(len(a) > len(s)) #false
+print(min(componist)) #bartok
+print(max (componist)) #Buxtehude

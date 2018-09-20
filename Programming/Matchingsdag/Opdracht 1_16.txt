@@ -1,0 +1,6 @@
+myName = 'Judith'
+myAddres = 'Straat 42'
+
+result = ('Ik ben' + myName + 'en mijn adres is:' + myAddres)
+
+print(result)

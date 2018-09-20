@@ -1,0 +1,9 @@
+dia 4. De grens van wanneer het wel of niet past met int hoeven we niet te weten. 
+priotiteiten dia 5 misschien wel weten aka toets. 
+dia 6, float constructor namen wel begrijpen. 
+2+3.0 =5.0 want hij pakt de grootste in de cirkels
+true +0 = 1
+
+min en max bij opdrcht 2
+
+ 

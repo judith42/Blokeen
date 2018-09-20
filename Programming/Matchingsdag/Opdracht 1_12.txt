@@ -1,0 +1,15 @@
+answers = ['Y', 'N', 'N', 'Y', 'N', 'Y', 'Y', 'Y', 'N', 'N', 'N']
+
+numYes = answers.count('Y')
+print(numYes)
+
+numNo = answers.count('N')
+print(numNo)
+
+
+
+answers.sort()
+print(answers)
+
+f = answers.index('Y')
+print(f)

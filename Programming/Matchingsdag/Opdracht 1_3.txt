@@ -1,0 +1,9 @@
+s1 = '-'
+s2 = '+'
+
+print(s1+s2)
+print(s1+s2+s1)
+print(s2+(s1*2))
+print ((s2+(s1*2))*2)
+print ((s2+(s1*2))*11)
+print(5*(s2 + s1 + 3*s2 + 2*s1))

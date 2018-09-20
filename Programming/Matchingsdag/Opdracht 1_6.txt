@@ -1,0 +1,6 @@
+s = 'Supercalifragilisticexpialidocious'
+h = 'Honorificabilitudinitatibus'
+
+print(len(s))
+print('ice' in s)
+print ((len(s)) > (len(h)))

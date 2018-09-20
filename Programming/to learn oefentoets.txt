@@ -1,0 +1,9 @@
+nOG LEREN:
+les 2: opletten op sneaky string vragen
+les 3: tulpes en strings goed onderscheiden
+les 4: de classes goed begrijpen type([5,6]+['kan dat?']). 1+false begrijpen. Fractie begrijpen? 
+	Weten dat bij een input het default een string is en dat je als inpu ook 3+5 kan opgeven. 
+	Bij eval kan je geen sring invoeren. 
+les 5: Letten erop dat in pyhon niet een if allemaal onder elkaar moet staan. 
+	letten dat na de if statement het einde ook wordt afgedurkt. 
+	If else woorden statement ding beter begrijpen. 

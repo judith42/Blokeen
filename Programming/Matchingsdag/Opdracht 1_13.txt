@@ -1,0 +1,6 @@
+list = [42,1,8,16,666]
+
+print(min(list))
+print(max(list))
+
+print(max(list)-min(list))

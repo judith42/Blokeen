@@ -1,0 +1,29 @@
+a = 6
+b = 7
+c = ((a+b)/2)
+print(c)
+
+voorraad = ['papier', 'nietjes', 'potloden']
+
+first = 'john'
+middle = 'Fitzgerald'
+last = 'Kennedy'
+
+fullname = (first + ' ' + middle + ' ' + last)
+
+print (fullname)
+
+print ((a+b) < 10)
+
+print (len(voorraad) == len(fullname * 5))
+
+print (c < 25)
+
+print ((6.75 > a) and (6.75 < b))
+
+print (len(middle) > len(first)) and (len(first) < len(last))
+
+print (len(voorraad) == 0) or (len(voorraad) > 10)
+
+
+

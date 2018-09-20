@@ -1,0 +1,150 @@
+#opdracht 3
+print(2**3) #2^3
+print(14//3) #hoeveel keer past 3 in 14 
+print(16//5) ##hoeveel keer past 5 in 16
+print(14%3) #Module, rest bij de gehele deling
+print(16%5)#Module, rest bij de gehele deling
+print(abs(2))#absolute waarde, positief=zelfde
+print(abs(-2)) #absolute waarde, negatief=zelfde maar dan positief
+print(min(3,6,2,9))#minimum waarde
+print(max(3,6,2,9))#maximum waarde
+
+#opdracht 4
+print(2 < 3) #kleiner dan
+print(2 > 3) #groter dan
+print(2 == 3) #gelijk aan
+print(2 != 3) #niet gelijk aan
+print(24 % 2 == 0) #module en is gelijk aan 
+print(25 % 2 == 1) #module en is gelijk aan 
+
+#opdracht 5
+print(2 < 3 and 3 < 4) 
+print(2 > 3 and 3 < 4) 
+print(2 > 3 or 3 < 4) 
+print(2 > 3 or 3 > 4) 
+print(not(2 < 3))
+
+#opdracht 6
+
+x = 3
+print(x)
+
+Voor namen van variabelen kun je de volgende tekens gebruiken: 
+• de letters a t/m z 
+• de letters A t/m Z 
+• underscore: _ 
+• de getallen o t/m 9 
+Variabelen kunnen niet beginnen met een getal! 
+Voor lange namen zijn er twee oplossingen: 
+Gebruik underscore: dit_is_een_lange_naam 
+Gebruik camelcase: ditIsEenLangeNaam 
+
+#opdracht 7
+s = 'rock' 
+t = 'climbing' 
+x =  'oc' 
+print(x in s) #x in s levert True op. Er wordt gevraagd of de string 'oc' deel uitmaakt van de string 'rock' of iets formeler gezegd. Is x een substring van s?
+print(x not in s) #x not in s vraagt of de string 'oc' geen substring is  van'rock'. Dit klopt dus niet en daarom is de uitkomst False. 
+print(s + t) #s + t geeft als resultaat 'rockclimbing'. De twee strings worden ‘aan elkaar geplakt’. Met een moeilijk woord wordt dit concatenatie genoemd. 
+print(s * 3) #levert 'rockrockrock' op. Het is de concatenatie van 3 kopieën van de string 'rock'
+print(s[2]) #geeft als resultaat de letter 'c'
+print(len(s)) #geeft als uitkomst 4 en dat is de lengte van de string
+
+#Opdracht 8 
+Python kent twee soorten getallen: 
+• int: gehele getallen 
+• float: gebroken getallen 
+Let op: gebroken getallen worden genoteerd met een punt en niet met een komma! De manier van declareren (bekend maken van de variabele) geeft het soort getal aan, bijv. 
+x = 3.56 
+Vanwege de punt wordt x een float getal. 
+
+#Opdracht 9
+woord = 'heelErgLangWoord'
+print(woord[0]) 
+print(woord[15]) #De opdracht print(woord[15]) geeft de laatste letter, want het woord bestaat uit 16 letters.
+print(woord[-1])# Gelukkig bestaat er een minder omslachtige manier om de laatste letter van een lang woord te krijgen. Je begint dan namelijk van achteraf te tellen, maar dan met negatieve getallen. In dit geval geeft woord[-1] de letter 'd', woord[-2] de letter 'r', enz. 
+
+#opdracht 10
+import math 
+oppervlakte = math.pi * 10**2 #wortel vn een cirkel met een straal van 10 pi is straal in het kwadraad
+print(oppervlakte) 
+schuinezijde = math.sqrt(3**2 + 4**2) #wortel stelling van pythagoras
+print(schuinezijde)
+
+#opdracht 11
+Naast getallen, booleans en strings kun je in Python ook lists gebruiken als datatype. 
+Declaratie van een list: elementen van de lijst worden gescheiden door komma’s en de lijst zelf wordt omsloten met vierkante haken 
+Voorbeeld van een lijst bestaande uit vijf gehele getallen: 
+getallenrij = [0, 2, 4, 6, 8] 
+Een list bestaande uit vijf strings van drie letters: 
+pets = ['ant', 'bat', 'cod', 'dog', 'elk'] 
+Een list waarvan de elementen zelf ook weer list zijn: een list in een list. 
+lijstineenlijst = [[1,3], [2,4], [3,5]] 
+Bij een list hoeven niet alle elementen van hetzelfde type te zijn. Onderstaande declaratie is dus toegestaan: 
+lst = [0, 1, 'two', 'three', [4, 'five']] 
+
+#opdracht 12
+lijst1 = [0, 1, 2] 
+lijst2 = [3, 4, 5] 
+
+print(2 in lijst1) #2 in lijst1 geeft als resultaat True. De operator in geeft aan of iets in een lijst zit.
+print(2 not in lijst2) #
+print(lijst1 + lijst2) # [0, 1, 2, 3, 4, 5]
+print(4*lijst1) #[0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2]
+print(lijst1[2])# geeft als waarde 2. De notatie kennen we al van strings. Ook hier wordt het element met de gevraagde index teruggegeven, waarbij de index van het eerste element, net als bij strings, de waarde 0 heeft. 
+
+#opdracht 13
+lijst1 = [0, 1, 2, 3] 
+print(len(lijst1)) #4 lengte string
+print(min(lijst1)) #0 kleiste
+print(max(lijst1)) #3 grootste
+print(sum(lijst1)) #sommeren van alle getalen
+
+#opdracht 14
+Functies die alleen kunnen worden aangeroepen bij lists noemen listmethoden. 
+Schrijfwijze (syntax) van een listmethode is als volgt: 
+ lijst.append(7) 
+lijst = naam van de list 
+append = methodenaam 
+7 = inputargument 
+(Als er geen inputargument is, staan er alleen haakjes) 
+
+#opdracht 15
+lijst = ['a', 'b', 'c', 'd', 'e', 'f'] 
+
+lijst.append('d') 
+print(lijst) 
+#levert als uitvoer ['a', 'b', 'c', 'd', 'e', 'f', 'd'] 
+#De methode append voegt het inputargument (hier de letter 'd') achteraan de lijst toe. 
+
+
+print(lijst.count('d')) #levert als uitvoer 2 De methode count geeft terug hoe vaak het inputargument voorkomt in de lijst. 
+
+
+print(lijst.index('d')) 
+# levert als uitvoer 3, De methode index geeft de index van het eerste element van het inputargument 
+
+
+lijst.insert(2, 'g')
+print(lijst)  
+#levert als uitvoer ['a', 'b', 'g', 'c', 'd', 'e', 'f', 'd'] 
+#Bij de methode insert geeft het eerste inputargument de index aan waar het tweede inputargument moet worden toegevoegd. De overige elementen schuiven allemaal een plaats naar rechts op. 
+ 
+
+lijst.remove('d')
+print(lijst)  
+# levert als uitvoer ['a', 'b', 'g', 'c', 'e', 'f', 'd'] 
+# De methode remove verwijdert het eerste element met de waarde van het inputargument. 
+
+lijst.reverse() 
+print(lijst) #levert als uitvoer ['d', 'f', 'e', 'c', 'g', 'b', 'a'] 
+#De methode reverse draait de lijst om
+
+
+lijst.sort() 
+print(lijst)
+#levert als uitvoer ['a', 'b', 'c', 'd', 'e', 'f', 'g'] 
+#De methode sort sorteert de lijst alfabetisch of bij getallen van klein naar groot.
+
+
+
